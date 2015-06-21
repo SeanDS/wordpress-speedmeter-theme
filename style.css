@@ -1,0 +1,15 @@
+/*
+Theme Name: Speedmeter
+Theme URI: https://github.com/SeanDS/wordpress-speedmeter-theme
+Author: Sean Leavey and Sebastian Steinlechner
+Description: Theme for the Glasgow Speedmeter labbook, based on Simple Life by Nilambar Sharma.
+Template: simple-life
+*/
+
+/* Sebastian: make categories more visible */
+span.cat-links a {
+	background-color: #F5DF44;
+	border-radius: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
+}
