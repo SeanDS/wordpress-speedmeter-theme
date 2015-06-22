@@ -13,3 +13,36 @@ span.cat-links a {
 	padding-left: 4px;
 	padding-right: 4px;
 }
+
+/* Sebastian: nicer block quotes */
+blockquote {
+    border-left: 3px solid #ccc;
+    font-size: 14px;
+    font-style: italic;
+}
+
+/* Sebastian: remove background color from "code" text (e.g. file names) */
+code {
+    background-color: #fff;
+}
+pre {
+    border-radius: 10px;
+    font-size: 11px;
+}
+
+/* Sebastian: adjust font size of headings */
+h2 {
+    font-size: 22px;
+}
+h3 {
+    font-size: 18px;
+}
+
+/* Sebastian: adjust site title */
+h2.site-description {
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+h1.site-title {
+    font-size: 2.5em;
+}
