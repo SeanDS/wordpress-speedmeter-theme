@@ -57,6 +57,6 @@ function simple_life_posted_on() {
 		);
 	}
 	
-	echo '<div class="byline">' . $byline . '</div><div class="posted-on">' . $posted_on . '</div>';
+	echo '<div class="byline"><i class="fa fa-link"></i> ' . get_the_ID() .' '. $byline . '</div><div class="posted-on">' . $posted_on . '</div>';
 }
 endif;
